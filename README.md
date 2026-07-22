@@ -8,7 +8,7 @@ Frontend Developer & AI/ML Student
 - JavaScript
 
 ## Live Demo
-https://affanzaid257-cpu.github.io/portfilio/
+https://muhammad-hasaann.github.io/portfilio/
 
 ## GitHub
 https://github.com/muhammad-hasaann/portfilio
