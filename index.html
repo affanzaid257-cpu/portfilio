@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="portfolio.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Hasaan.dev</div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li class="dropdown">
+                    <a href="#services">services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">AI Chatbots</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                    </ul>
+                </li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ===== HERO / ABOUT SECTION ===== -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <!-- Left Side -->
+            <div class="hero-text">
+
+                <p class="hero-top">👋 Hi, I'm</p>
+
+                <h1>Muhammad <span>Hassan</span></h1>
+
+                <h3>Frontend Developer <span>|</span> AI & ML Student</h3>
+
+                <p class="hero-desc">
+                    I build modern, responsive websites and AI-powered applications.
+                    Passionate about Frontend Development, Machine Learning and creating
+                    beautiful user experiences.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#project" class="btn-primary">
+                        View Projects
+                    </a>
+
+                    <a href="cv.pdf" class="btn-secondary" download>
+                        Download CV
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Right Side -->
+            <div class="hero-image">
+
+                <div class="image-circle">
+
+                    <img src="profile.jpg.jpeg" alt="Muhammad Hassan">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <main>
+        <section id="About">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-icon">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="30" y="50" width="140" height="90" rx="8" fill="#1a1a1a" stroke="#4dd0e1"
+                            stroke-width="3" />
+                        <rect x="45" y="65" width="110" height="60" rx="4" fill="#0d0d0d" />
+                        <text x="55" y="90" font-family="monospace" font-size="14" fill="#4dd0e1">&lt;/&gt;</text>
+                        <text x="55" y="110" font-family="monospace" font-size="10" fill="#666">AI + Code</text>
+                        <rect x="20" y="140" width="160" height="12" rx="6" fill="#2a2a2a" />
+                        <circle x="100" y="146" r="4" fill="#4dd0e1" />
+                        <circle cx="70" cy="30" r="12" fill="none" stroke="#4dd0e1" stroke-width="2" opacity="0.6" />
+                        <circle cx="130" cy="35" r="8" fill="none" stroke="#4dd0e1" stroke-width="2" opacity="0.4" />
+                    </svg>
+                </div>
+                <div class="about-text">
+                    <p>Hi! I'm <strong>Muhammad Hassan</strong>, a Front-End Web Developer passionate about building
+                        responsive and modern websites. I enjoy working with HTML, CSS, and JavaScript, and I'm
+                        constantly learning new technologies to improve my skills.</p>
+                    <p>My goal is to create beautiful, user-friendly web applications and grow as a professional
+                        AI-powered full stack developer.</p>
+
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <span>Projects Built</span>
+                        </div>
+                        <div class="stat">
+                            <h3>4</h3>
+                            <span>Core Skills</span>
+                        </div>
+                        <div class="stat">
+                            <h3>3rd</h3>
+                            <span>Year BSAI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="cards">
+                <div class="card skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Building structured, semantic web pages.</p>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="card skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Styling responsive and modern layouts.</p>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="card skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding interactivity and dynamic behavior.</p>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="card skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Working with AI/ML and backend logic.</p>
+                    <div class="skill-level">
+                        <div class="skill-level-fill" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="webdevelopment.jpg.png" alt="">
+                    <h3>Web development</h3>
+                    <p>I build Responsive and modern websites with HTML , CSS and JS</p>
+                </div>
+                <div class="card">
+                    <img src="chatbots.jpg.png" alt="">
+                    <h3>AI chatbots</h3>
+                    <p>I build AI-powered web apps and smart chatbots</p>
+                </div>
+                <div class="card">
+                    <img src="uidesign.jpg.png" alt="">
+                    <h3>UI/UX Design</h3>
+                    <p>Design clean and user-friendly interfaces </p>
+                </div>
+            </div>
+        </section>
+        <section id="project">
+            <h2>Projects</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <img src="networking.jpg.png" alt="Communication & Networking">
+
+                    <h3>Communication & Networking</h3>
+
+                    <p>
+                        Designed and simulated a secure network using Cisco Packet Tracer.
+                    </p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn-demo">Live Demo</a>
+                        <a href="https://github.com/yourusername/project" class="github-icon" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="weka.jpg.png" alt="Data Mining">
+
+                    <h3>Data Mining (WEKA)</h3>
+
+                    <p>
+                        Performed classification and clustering using WEKA software.
+                    </p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn-demo">Live Demo</a>
+                        <a href="https://github.com/yourusername/project" class="github-icon" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="ecommerce.jpg.png" alt="E-Commerce Store">
+
+                    <h3>E-Commerce Store</h3>
+
+                    <p>
+                        Responsive online shopping website built with HTML, CSS and JavaScript.
+                    </p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn-demo">Live Demo</a>
+                        <a href="https://github.com/yourusername/project" class="github-icon" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-card">
+
+                <h2>Get in Touch</h2>
+                <p class="subtitle">I'd love to hear from you</p>
+
+                <form>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="John Doe" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="How can we help?">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Message</label>
+                        <textarea placeholder="Tell us more about your inquiry..." required></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+
+
+            </div>
+        </section>
+    </main>
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <footer>
+
+        <div class="footer-container">
+
+            <!-- Column 1 -->
+            <div class="footer-box">
+                <h2>Hasaan</h2>
+
+                <p>
+                    Frontend Developer & AI/ML Student passionate about creating
+                    modern, responsive and user-friendly websites.
+                </p>
+            </div>
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="footer-box">
+                <h3>Follow Me</h3>
+
+                <div class="footer-social">
+
+                    <a href="https://github.com/yourusername" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://instagram.com/yourusername" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://linkedin.com/in/yourusername" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            © 2026 Hassan. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
